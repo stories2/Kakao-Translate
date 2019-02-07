@@ -10,7 +10,7 @@ const v3KakaoApi = express()
 //Routes
 const kakaoRoute = require('./Route/kakaoRoute')
 //Attribute
-const preprocessManager = require('./Attribute/preprocessManager')
+const preprocessManager = require('./Attribute/preProcessManager')
 
 //Global
 global.define = require('./Settings/defineManager')
