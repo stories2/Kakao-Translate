@@ -60,6 +60,6 @@ i  Writing project information to .firebaserc...
 === npm
 C:\Users\media\Documents\GitHub\Kakao-Translate>cd functions
 
-C:\Users\media\Documents\GitHub\Kakao-Translate\functions>npm install google-translate --save
+C:\Users\media\Documents\GitHub\Kakao-Translate\functions>npm install --save google-translate-api
 
 ```
