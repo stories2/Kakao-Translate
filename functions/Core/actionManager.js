@@ -176,6 +176,7 @@ exports.executeOrder = function (request, response, actionIndex, callbackFunc) {
         "2000": translateAction.translateStringToOtherLang,
         "3000": translateAction.translateStringToOtherLang,
         "4000": translateAction.translateStringToOtherLang,
+        "5000": translateAction.translateStringToOtherLang,
     }
 
     global.log.debug("actionManager", "executeOrder", "execute action #" + actionIndex)
