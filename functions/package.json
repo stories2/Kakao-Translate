@@ -9,6 +9,7 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
+    "@vitalets/google-translate-api": "^2.5.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "firebase-admin": "~6.0.0",
