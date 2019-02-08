@@ -168,9 +168,13 @@ exports.getCurrentActionBox = function(actionIndex, callbackFunc) {
 
 exports.executeOrder = function (request, response, actionIndex, callbackFunc) {
     const basicAction = require('../Action/basicAction')
+    const translateAction = require('../Action/translateAction')
 
     const actionTable = {
         "1": basicAction.hello,
+        "1000": translateAction.translateStringToOtherLang,
+        "2000": translateAction.translateStringToOtherLang,
+        "3000": translateAction.translateStringToOtherLang,
     }
 
     global.log.debug("actionManager", "executeOrder", "execute action #" + actionIndex)
