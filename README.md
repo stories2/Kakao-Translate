@@ -1,6 +1,7 @@
 # Kakao-Translate
 카카오톡 챗봇 오픈빌더를 이용한 자동번역 봇 제작하기
 
+<img src="./KakaoClientIntro.PNG" width="300" height="auto"/>
 ```
 
 C:\Users\media\Documents\GitHub\Kakao-Translate>firebase login
